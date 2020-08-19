@@ -69,7 +69,7 @@ if __name__ == "__main__" :
     #
     incoming_message_handler = MessageHandler(
         incoming_message_f,
-        filters=Filters.command([f"{LEECH@Leeech2filebot}"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command([f"{Leech@Leeech2filebot}"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_message_handler)
     #
